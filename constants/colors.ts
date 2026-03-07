@@ -1,0 +1,47 @@
+const Colors = {
+  primary: '#0D7377',
+  primaryDark: '#095D60',
+  primaryLight: '#14919B',
+  accent: '#FF6B35',
+  accentLight: '#FF8A5C',
+  success: '#2ECC71',
+  successLight: '#E8F8F0',
+  warning: '#F39C12',
+  warningLight: '#FEF5E7',
+  danger: '#E74C3C',
+  dangerLight: '#FDECEB',
+  background: '#F5F7FA',
+  surface: '#FFFFFF',
+  surfaceSecondary: '#EEF1F5',
+  text: '#1A1A2E',
+  textSecondary: '#6B7280',
+  textTertiary: '#9CA3AF',
+  border: '#E5E7EB',
+  borderLight: '#F0F1F3',
+  white: '#FFFFFF',
+  black: '#000000',
+  overlay: 'rgba(0, 0, 0, 0.5)',
+
+  status: {
+    draft: '#9CA3AF',
+    draftBg: '#F3F4F6',
+    sent: '#3B82F6',
+    sentBg: '#EFF6FF',
+    paid: '#2ECC71',
+    paidBg: '#E8F8F0',
+    overdue: '#E74C3C',
+    overdueBg: '#FDECEB',
+    partial: '#F39C12',
+    partialBg: '#FEF5E7',
+  },
+
+  light: {
+    text: '#1A1A2E',
+    background: '#F5F7FA',
+    tint: '#0D7377',
+    tabIconDefault: '#9CA3AF',
+    tabIconSelected: '#0D7377',
+  },
+};
+
+export default Colors;
